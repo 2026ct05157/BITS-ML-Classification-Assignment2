@@ -1,0 +1,51 @@
+MODEL COMPARISON OBSERVATIONS
+============================================================
+
+Model: Random Forest
+Accuracy: 0.8558
+AUC: 0.9050
+Precision: 0.7289
+Recall: 0.6331
+F1 Score: 0.6777
+MCC: 0.5878
+
+Model: Logistic Regression
+Accuracy: 0.8520
+AUC: 0.9081
+Precision: 0.7304
+Recall: 0.6053
+F1 Score: 0.6620
+MCC: 0.5724
+
+Model: KNN
+Accuracy: 0.8389
+AUC: 0.8667
+Precision: 0.6835
+Recall: 0.6092
+F1 Score: 0.6442
+MCC: 0.5420
+
+Model: Decision Tree
+Accuracy: 0.8214
+AUC: 0.7587
+Precision: 0.6242
+Recall: 0.6378
+F1 Score: 0.6310
+MCC: 0.5132
+
+Model: Gaussian Naive Bayes
+Accuracy: 0.5990
+AUC: 0.8174
+Precision: 0.3672
+Recall: 0.9336
+F1 Score: 0.5271
+MCC: 0.3736
+
+OVERALL COMPARISON
+------------------------------------------------------------
+Highest F1 Score: Random Forest
+Highest Accuracy: Random Forest
+Highest AUC: Logistic Regression
+Highest MCC: Random Forest
+
+The overall ranking is based on F1 Score followed by MCC. Since the dataset is imbalanced, accuracy alone should not determine the best model.

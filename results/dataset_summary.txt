@@ -1,0 +1,8 @@
+UCI ADULT DATASET SUMMARY
+==================================================
+Rows: 48842
+Columns: 15
+Numerical features: 6
+Categorical features: 8
+Missing values: 6465
+Duplicate rows: 52

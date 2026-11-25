@@ -1,0 +1,20 @@
+Dataset Name: Adult Census Income Dataset
+Source: UCI Machine Learning Repository
+Official URL: https://archive.ics.uci.edu/dataset/2/adult
+
+Original files:
+1. adult.data
+2. adult.test
+3. adult.names
+
+Target variable: income
+Classification type: Binary classification
+
+Target classes:
+<=50K
+>50K
+
+The original training and testing portions have been
+combined into adult.csv for this assignment.
+A new stratified 80:20 train-test split will be
+created using random_state=42.
